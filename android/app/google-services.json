@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1050980359424",
+    "project_id": "end2end-a2116",
+    "storage_bucket": "end2end-a2116.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050980359424:android:cd9e82c7597d95f373e7e5",
+        "android_client_info": {
+          "package_name": "com.end2end.company_employees"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvS8wkYJj1PDBsO6nZkaByvq7cjoO-SPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
