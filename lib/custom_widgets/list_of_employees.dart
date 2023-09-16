@@ -1,11 +1,11 @@
 
 
-import 'package:company_employees/custom_widgets/custom_card.dart';
 import 'package:company_employees/data/models/employee.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 import '../f_employee_list/screens/employee_details_screen.dart';
+import '../f_employee_list/screens/update_employee_screen.dart';
 
 class EmployeeList extends StatelessWidget {
   const EmployeeList({super.key});
@@ -60,6 +60,15 @@ class EmployeeList extends StatelessWidget {
                     MaterialPageRoute(
                         builder: (context) =>
                             EmployeeDetails(employee),
+                    ),
+                  ); 
+                },
+                onLongPress: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) =>
+                            UpdateEmployee(employee),
                     ),
                   ); 
                 },
